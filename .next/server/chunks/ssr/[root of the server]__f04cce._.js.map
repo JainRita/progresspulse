@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/hp/OneDrive/Documents/rita/my-app/components/theme-provider.jsx"],"sourcesContent":["\"use client\"\r\nimport * as React from \"react\"\r\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\"\r\n\r\nexport function ThemeProvider({children, ...props}) {\r\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>\r\n}\r\n"],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAIO,SAAS,cAAc,EAAC,QAAQ,EAAE,GAAG,OAAM;IAChD,qBAAO,8OAAC,gJAAA,CAAA,gBAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

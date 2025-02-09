@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/hp/OneDrive/Documents/rita/my-app/app/%28main%29/projects/create/page.jsx"],"sourcesContent":["\"use client\"\r\n\r\nconst CreateProjectPage = () => {\r\n  return <div> CreateProjectPage </div>;\r\n};\r\n\r\nexport default CreateProjectPage;"],"names":[],"mappings":";;;;AAAA;;AAEA,MAAM,oBAAoB;IACxB,qBAAO,6LAAC;kBAAI;;;;;;AACd;KAFM;uCAIS"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

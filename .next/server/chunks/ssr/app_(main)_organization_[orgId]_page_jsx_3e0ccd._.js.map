@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/hp/OneDrive/Documents/rita/my-app/app/%28main%29/organization/%5BorgId%5D/page.jsx"],"sourcesContent":["import { OrganizationSwitcher } from '@clerk/nextjs';\r\nimport React from 'react'\r\n\r\nconst Organization = ({params}) => {\r\n  const {orgId} = params\r\n  return (\r\n    <div> {orgId}\r\n    \r\n    </div>\r\n  )\r\n}\r\n\r\nexport default Organization;"],"names":[],"mappings":";;;;AACA;;;;AAEA,MAAM,eAAe,CAAC,EAAC,MAAM,EAAC;IAC5B,MAAM,EAAC,KAAK,EAAC,GAAG;IAChB,qBACE,8OAAC;;YAAI;YAAE;;;;;;;AAIX;uCAEe"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

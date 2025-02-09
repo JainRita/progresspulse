@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/hp/OneDrive/Documents/rita/my-app/app/%28main%29/project/%5BprojectId%5D/layout.js"],"sourcesContent":["import { Suspense } from \"react\";\r\nimport { BarLoader } from \"react-spinners\";\r\n\r\nexport default async function ProjectLayout({ children }) {\r\n  return (\r\n    <div className=\"mx-auto\">\r\n      <Suspense fallback={<span> Loading Projects.. </span>}>\r\n        {children}\r\n      </Suspense>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;AAAA;;;;AAGe,eAAe,cAAc,EAAE,QAAQ,EAAE;IACtD,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,qMAAA,CAAA,WAAQ;YAAC,wBAAU,8OAAC;0BAAK;;;;;;sBACvB;;;;;;;;;;;AAIT"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

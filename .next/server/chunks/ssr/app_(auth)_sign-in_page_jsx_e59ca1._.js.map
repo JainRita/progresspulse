@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/hp/OneDrive/Documents/rita/my-app/app/%28auth%29/sign-in/page.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst SignIn = () => {\r\n  return (\r\n    <div>SignIn</div>\r\n  )\r\n}\r\n\r\nexport default SignIn"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

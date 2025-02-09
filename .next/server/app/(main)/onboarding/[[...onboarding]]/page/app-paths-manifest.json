@@ -1,0 +1,3 @@
+{
+  "/(main)/onboarding/[[...onboarding]]/page": "app/(main)/onboarding/[[...onboarding]]/page.js"
+}

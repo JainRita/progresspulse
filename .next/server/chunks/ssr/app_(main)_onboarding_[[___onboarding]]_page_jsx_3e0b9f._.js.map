@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/hp/OneDrive/Documents/rita/my-app/app/%28main%29/onboarding/%5B%5B...onboarding%5D%5D/page.jsx"],"sourcesContent":["import { OrganizationList, useOrganization } from \"@clerk/nextjs\";\r\nimport { useRouter } from \"next/navigation\";\r\nimport React from \"react\";\r\n\r\nconst Onboarding = () => {\r\n  const {organization} = useOrganization();\r\n  const router = useRouter();\r\n\r\n  return (\r\n    <div className=\"flex justify-center items-center pt-14\"> <OrganizationList hidePersonal/> </div>\r\n  );\r\n};\r\n\r\nexport default Onboarding;"],"names":[],"mappings":";;;;AACA;AACA;AAFA;AACA;AADA;;;;;AAIA,MAAM,aAAa;IACjB,MAAM,EAAC,YAAY,EAAC,GAAG,CAAA,GAAA,+KAAA,CAAA,kBAAe,AAAD;IACrC,MAAM,SAAS,CAAA,GAAA,qLAAA,CAAA,YAAS,AAAD;IAEvB,qBACE,8OAAC;QAAI,WAAU;;YAAyC;0BAAC,8OAAC,sLAAA,CAAA,mBAAgB;gBAAC,YAAY;;;;;;YAAE;;;;;;;AAE7F;uCAEe"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

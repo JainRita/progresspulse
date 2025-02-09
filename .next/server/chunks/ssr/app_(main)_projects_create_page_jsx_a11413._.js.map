@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/hp/OneDrive/Documents/rita/my-app/app/%28main%29/projects/create/page.jsx"],"sourcesContent":["import {auth} from \"@clerk/nextjs/server\";\r\n\r\nexport async function createProject(data){\r\n    const {userId, orgId} = auth();\r\n    if (!userId){\r\n        throw new Error(\"Unauthorized\");\r\n    }\r\n    if(!orgId){\r\n        throw new Error(\"No organization Selected\");\r\n    }\r\n}"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe,cAAc,IAAI;IACpC,MAAM,EAAC,MAAM,EAAE,KAAK,EAAC,GAAG,CAAA,GAAA,mLAAA,CAAA,OAAI,AAAD;IAC3B,IAAI,CAAC,QAAO;QACR,MAAM,IAAI,MAAM;IACpB;IACA,IAAG,CAAC,OAAM;QACN,MAAM,IAAI,MAAM;IACpB;AACJ"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
